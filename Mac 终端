@@ -1,0 +1,2 @@
+删除当前目录下的.DS_Store文件 
+  find . -name '*.DS_Store' -type f -delete
