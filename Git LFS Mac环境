@@ -1,0 +1,12 @@
+第一步：任意目录下都可以
+	brew install git-lfs
+    
+第二步：切换到需要提交大文件的目录下，然后执行
+	git lfs install
+    
+第三步：添加大文件。一下以demo.iso文件为例，添加完成之后，可以在.gitattributes文件中进行查看
+	git lfs track "demo.iso"
+
+之后进行正常提交即可。
+
+PS：需要注意查看.gitattributes文件是否在git托管范围内
