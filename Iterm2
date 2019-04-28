@@ -1,0 +1,6 @@
+设置：Iterm2 => Preferences => Profiles
+
+修改bash和zsh： chsh -s /bin/zsh     chsh -s /bin/bash
+
+安装oh my zsh：sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
