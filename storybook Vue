@@ -1,0 +1,18 @@
+手动搭建
+
+1. 确保前端开发环境安装完成，npm（建议使用国内的taobao镜像）/nodejs（建议release版本）
+2. 初始化项目npm init(根据提示输入项目信息即可)
+3. 安装依赖：npm install @storybook/vue --save-dev  
+            npm install vue --save
+            npm install vue-loader vue-template-compiler @babel/core babel-loader babel-preset-vue --save-dev
+4. 在package.json文件中添加script指令：
+    {
+      "scripts": {
+        "storybook": "start-storybook"
+      }
+    }
+ 5. 
+ 
+ 
+ 
+ 杂项添加：.gitignore、.npmignore
