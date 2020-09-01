@@ -1,2 +1,0 @@
-在npm包目录下执行npm link
-在项目目录下执行npm link 包名即可
