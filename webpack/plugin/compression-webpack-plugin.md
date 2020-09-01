@@ -1,3 +1,4 @@
+```js
 new CompressionPlugin({
   asset: "[path].gz[query]",
   algorithm: "gzip",
@@ -5,4 +6,5 @@ new CompressionPlugin({
   threshold: 10240,
   minRatio: 0.8
 })
+```
  
