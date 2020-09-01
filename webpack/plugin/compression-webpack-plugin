@@ -1,4 +1,3 @@
-compression-webpack-plugin 打包成gzip格式
 new CompressionPlugin({
   asset: "[path].gz[query]",
   algorithm: "gzip",
